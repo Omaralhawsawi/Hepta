@@ -4,8 +4,8 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Darb</title>
-
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap" rel="stylesheet">
@@ -13,9 +13,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Tajawal:wght@300&display=swap" rel="stylesheet">
 
   <!-- CSS Stylesheets -->
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="styles.css">
 
   <!-- Font Awesome -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
@@ -23,6 +23,11 @@
 
   <!-- CSS Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> --> -->
+
 
 </head>
 
@@ -35,7 +40,7 @@
       <!-- Nav Bar -->
       <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="index.html"><img class="logo-image"
-          src="images/hepta.png"></a>
+          src="hepta.png"></a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -76,12 +81,11 @@
           <input type="button" class="download-button btn btn-lg btn-dark" value="تحالف معنا (للشركات)" onclick=" relocate_home()">
           <input type="button" class="download-button btn btn-lg btn-dark" value="تحالف معنا (للأفراد)" onclick=" relocate_home()">
           <script>
-
-      function relocate_home()
-      {
-          location.href = "https://forms.gle/1LHfrTua9HyE9Mca7";
-      }
-      </script>
+            function relocate_home()
+            {
+                location.href = "https://forms.gle/1LHfrTua9HyE9Mca7";
+            }
+          </script>
         </div>
 
     <!--    <div class="col-lg-6">
@@ -135,7 +139,7 @@
         <div class="carousel-item active">
           <!--  <img src="..." class="d-block w-100" alt="...">-->
           <h2>البدء بمشروعك التقني يبعد عنك خطوة واحدة وهي إيجاد الشركة التقنية المناسبة، نحن متواجدون للانطلاق معك في رحلة نجاحك</h2>
-          <img class="testimonial-image" src="images/omar.jpg" alt="man-profile">
+          <img class="testimonial-image" src="omar.jpg" alt="man-profile">
           <br>
           <em>عمر الهوساوي</em>
           <br>
@@ -144,7 +148,7 @@
         </div>
         <div class="carousel-item">
           <h2 class="testimonial-text">إذا كنت تملك فكرة مشروع تجاري الآن فالتحدي الذي سواجهك هو تحدي ابتكار نموذج عمل تجاري مميز ونحن هنا لمساعدتك في ذلك</h2>
-          <img class="testimonial-image" src="images/hamad.jpg" alt="man-profile">
+          <img class="testimonial-image" src="hamad.jpg" alt="man-profile">
           <br>
           <em>حمد الراكان</em>
           <br>
@@ -254,10 +258,6 @@ function relocate_home()
   </section>
 
 <!-- Contact Form -->
-
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
 
 <div class="container" id="section2">
@@ -287,7 +287,10 @@ function relocate_home()
 
   </footer>
 
-
+  <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 </body>
 
 </html>
