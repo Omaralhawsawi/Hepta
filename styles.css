@@ -3,7 +3,9 @@ body {
 
 }
 
-
+#section1 {
+  text-align: right;
+}
 
 #title {
   background-image: linear-gradient(#F9FAFC, #7E87B8, #8B4A96);
